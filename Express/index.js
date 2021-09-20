@@ -1,4 +1,5 @@
-const express = require('express'); //Importando o express
+//const express = require('../reqHttp/node_modules/express'); //Importar de um diretório
+const express = require('express');//Importando o express
 const app = express(); //Iniciando o express
 
 app.get("/", function (req, res) {//Faz uma requisição e manda uma resposta
